@@ -1,0 +1,26 @@
+* {margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body,html {height: 100%;}
+
+body {
+    background: url(../images/bg.jpg)center no-repeat;
+    background-size: cover;
+}
+#wrap {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    perspective:500px;
+}
+#wrap > img {
+    width: 100%;
+    transform-origin: 100% 0;
+}
